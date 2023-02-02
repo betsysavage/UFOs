@@ -35,4 +35,7 @@ Using multiple search filters is also helpful when trying to examine general tre
 To remove the filters on the table to restore the entire table to the display, delete the values from the filter boxes and hit the "Enter" key. The original table will reset.
 
 ## Summary: 
-In a summary statement, describe one drawback of this new design and two recommendations for further development.
+### Drawbacks to design
+In a summary statement, describe one drawback of this new design and 
+### Recommendations:
+two recommendations for further development.
