@@ -4,6 +4,8 @@
 
 ## Results:
 
+### Instructions for Use: 
+
 To apply the filter search options on the UFO sightings table, reference the empty fields available on the left navigation panel on the page.
 
 <img width="1289" alt="image" src="https://user-images.githubusercontent.com/114873837/216457558-bf2e07d8-0cae-4ca7-94a3-b7dc0a9e12ee.png">
