@@ -4,7 +4,7 @@
 
 ## Results:
 
-### Instructions for Use: 
+### Instructions for Using the Search Function: 
 
 To apply the filter search options on the UFO sightings table, reference the empty fields available on the left navigation panel on the page.
 
