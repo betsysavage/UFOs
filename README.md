@@ -36,6 +36,11 @@ To remove the filters on the table to restore the entire table to the display, d
 
 ## Summary: 
 ### Drawbacks to design
-In a summary statement, describe one drawback of this new design and 
+
+As described in the instructions, the user must be very exact in their capitalization, spacing, and formatting when entering the data values in order for the filters to recognize the results. They likely would need to review the complete table before applying any filters in order to make sure they are matching the value as written - which defeats the point of a quick search tool!
+
 ### Recommendations:
-two recommendations for further development.
+
+To improve utility of the search function, I would recommend the following changes to the model:
+1. To resolve this issue of specificity, 
+2. To improve the user's ability to identify trends in the data, it would be helpful to standardize the "Duration" column to a consistent format. For example, if one value reads as "15 minutes", another as "15 mins.", and another as "about 15 minutes", this makes it difficult to recognize the values as the same duration. If all durations were stored in reference to a traditional hh:mm:ss format (for example, 1:00, :15, :30), it could make it easier for a user to quickly locate sightings of, say, 30 seconds or longer in a given location. Towards this goal, I would also recommend the ability to include ranges for numerical values in the table, such as Duration (which should also be added to the html as a filter option for analytical purposes) or Date of the sighting. A user may want to know sightings that occurred on the exact day of 1/1/2010, but they could gather more meaningful data on trends if they could observe sightings data for the entire month of January, the first quarter of 2010, etc.
