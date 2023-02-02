@@ -10,7 +10,7 @@ To apply the filter search options on the UFO sightings table, reference the emp
 
 <img width="1289" alt="image" src="https://user-images.githubusercontent.com/114873837/216457558-bf2e07d8-0cae-4ca7-94a3-b7dc0a9e12ee.png">
 
-Click the curser into the field of interest. Then, type the value you'd like to see within the field. Then hit the "Enter" key to apply the filter.
+Click the cursor into the field of interest. Then, type the value you'd like to see within the field. Then hit the "Enter" key to apply the filter.
 
 <img width="1495" alt="image" src="https://user-images.githubusercontent.com/114873837/216458152-31b1a6bd-0dc2-4c04-b43f-0ee53c0609bc.png">
 
@@ -37,10 +37,10 @@ To remove the filters on the table to restore the entire table to the display, d
 ## Summary: 
 ### Drawbacks to design
 
-As described in the instructions, the user must be very exact in their capitalization, spacing, and formatting when entering the data values in order for the filters to recognize the results. They likely would need to review the complete table before applying any filters in order to make sure they are matching the value as written - which defeats the point of a quick search tool!
+As described in the instructions, the user must be very exact in their capitalization, spacing, and formatting when entering the data values in order for the filters to recognize the results. They may get confused and assume that no search results are appearing because no table items meet criteria, when they actually might meet criteria but are written incorrectly. They likely would need to review the complete table before applying any filters in order to make sure they are matching the value as written - which defeats the point of a quick search tool!
 
 ### Recommendations:
 
 To improve utility of the search function, I would recommend the following changes to the model:
-1. To resolve this issue of specificity, 
+1. To resolve the issue of overly specific , I would explore style options that would recognize the word regardless of capitalization, or convert the case of the word entered to a consistent casing that would match the values of the table (such as ToLower, which should convert data to all lower case as displayed in the city and state names). I would also provide some more interactive feedback to the user when they attempt to enter values that the tool would consider invalid. For example, if a user enters "california" instead of "ca", the field could lock for further values past two letters and provide an error flag such as "state must be referenced by abbreviation". These measures would help guide and correct the user to capture all the data they intend to include. 
 2. To improve the user's ability to identify trends in the data, it would be helpful to standardize the "Duration" column to a consistent format. For example, if one value reads as "15 minutes", another as "15 mins.", and another as "about 15 minutes", this makes it difficult to recognize the values as the same duration. If all durations were stored in reference to a traditional hh:mm:ss format (for example, 1:00, :15, :30), it could make it easier for a user to quickly locate sightings of, say, 30 seconds or longer in a given location. Towards this goal, I would also recommend the ability to include ranges for numerical values in the table, such as Duration (which should also be added to the html as a filter option for analytical purposes) or Date of the sighting. A user may want to know sightings that occurred on the exact day of 1/1/2010, but they could gather more meaningful data on trends if they could observe sightings data for the entire month of January, the first quarter of 2010, etc.
