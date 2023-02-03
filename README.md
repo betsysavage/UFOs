@@ -1,6 +1,8 @@
 # UFOs
 ## Overview of Project:
 
+This challenge involved the creation and formatting of a webpage with an interactive table from a provided data set. Using the data set, I edited javascript and HTML files to build the table, rebuild the table in response to filters, and establish event actions in response to user input. The end result is a formatted webpage that includes a table of data that can be filtered in response to user inputs.
+<img width="1488" alt="image" src="https://user-images.githubusercontent.com/114873837/216493042-e394b59c-8137-4133-94ac-9a121a6341fd.png">
 
 ## Results:
 
